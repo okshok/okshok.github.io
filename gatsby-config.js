@@ -6,7 +6,7 @@ module.exports = {
       summary: `긍정, 겸손, 끈기`,
     },
     description: `꿈을 꾸는 개발자`,
-    siteUrl: ``,
+    siteUrl: `https://okshok.github.io`,
     social: {
       twitter: ``,
     },
