@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[꿈을 꾸는 아이]]></title><description><![CDATA[꿈을 꾸는 개발자]]></description><link>https://okshok.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 11 Sep 2020 13:54:55 GMT</lastBuildDate><item><title><![CDATA[깃헙을 위한 마크다운]]></title><description><![CDATA[문자 Headers # 개수에 따라 헤더 단계 조정 가능 1~6개 까지   Italic  >> 이렇게 강조합니다  >> 이렇게 강조합니다   Bold  >> 굵은 글씨  >> 굵은 글씨 조합형  >> You can combine them…]]></description><link>https://okshok.github.io/markdown/</link><guid isPermaLink="false">https://okshok.github.io/markdown/</guid><content:encoded>&lt;h1&gt;문자&lt;/h1&gt;
+&lt;h2&gt;Headers&lt;/h2&gt;
+&lt;p&gt;# 개수에 따라 헤더 단계 조정 가능 1~6개 까지  &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# This is an &amp;lt;h1&amp;gt; tag
+## This is an &amp;lt;h2&amp;gt; tag
+###### This is an &amp;lt;h6&amp;gt; tag&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Italic&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;*이렇게 강조합니다*&lt;/code&gt; &gt;&gt; &lt;em&gt;이렇게 강조합니다&lt;/em&gt;&lt;br&gt;
+&lt;code class=&quot;language-text&quot;&gt;_이렇게 강조합니다_&lt;/code&gt; &gt;&gt; &lt;em&gt;이렇게 강조합니다&lt;/em&gt;  &lt;/p&gt;
+&lt;h2&gt;Bold&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;**굵은 글씨**&lt;/code&gt; &gt;&gt; &lt;strong&gt;굵은 글씨&lt;/strong&gt;&lt;br&gt;
+&lt;code class=&quot;language-text&quot;&gt;__굵은 글씨__&lt;/code&gt; &gt;&gt; &lt;strong&gt;굵은 글씨&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;조합형&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;_You **can** combine them_&lt;/code&gt; &gt;&gt; &lt;em&gt;You &lt;strong&gt;can&lt;/strong&gt; combine them&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;인용&lt;/h2&gt;
+&lt;p&gt;&gt; 인용합니다     &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;인용합니다&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1&gt;리스트&lt;/h1&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;* 목록
+  * 하위목록
+
+1. 순서
+    1. 순서입니다
+    1. 순서에요&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;순서에서 숫자는 의미 없음&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1&gt;코드&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;코드 위 아래로 `&lt;code class=&quot;language-text&quot;&gt;&lt;/code&gt; 붙인다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;사용 언어를 참조하도록 넣을 수도 있다&lt;br&gt;
+사용법 : `&lt;code class=&quot;language-text&quot;&gt;&lt;/code&gt;java    coding… `&lt;code class=&quot;language-text&quot;&gt;&lt;/code&gt;   &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;String&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;문맥에 코드 넣기 ` 코드 `&lt;br&gt;
+설명하다가 &lt;code class=&quot;language-text&quot;&gt;new ZoneDateTime()&lt;/code&gt; 언급하고 싶어&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;링크&lt;/h1&gt;
+&lt;h2&gt;링크하기&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://github.com&quot;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;인용부를 통한 링크&lt;/h2&gt;
+&lt;p&gt;클릭을 누르면 링크 가능 &lt;a href=&quot;http://okshok.github.io&quot; title=&quot;내블로그&quot;&gt;클릭&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;클릭을 누르면 링크 가능 [클릭][1]  
+
+[1]: http://okshok.github.io        &amp;quot;내블로그&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h1&gt;기타&lt;/h1&gt;
+&lt;h2&gt;특수 문자 처리&lt;/h2&gt;
+&lt;p&gt;’\’ 사용
+예를들어 #을 사용하고 싶을 경우&lt;br&gt;
+# 샾을 사용합니다&lt;/p&gt;</content:encoded></item><item><title><![CDATA[자바 날짜]]></title><description><![CDATA[타임존 자바 8 이상부터는 ZoneId를 사용한다. 단순히 TimeZone만 사용하면 되는데 왜 그런 것일까?  이유는 정치적, 역사적인 또는 summberTime으로 동일한 TimeZone에서도 offSet…]]></description><link>https://okshok.github.io/new contents/</link><guid isPermaLink="false">https://okshok.github.io/new contents/</guid><content:encoded>&lt;h3&gt;타임존&lt;/h3&gt;
+&lt;p&gt;자바 8 이상부터는 ZoneId를 사용한다. 단순히 TimeZone만 사용하면 되는데 왜 그런 것일까? &lt;/p&gt;
+&lt;p&gt;이유는 정치적, 역사적인 또는 summberTime으로 동일한 TimeZone에서도 offSet이 달라질 수 있기 때문이다. 그래서 ZoneId는 시간의 흐름에 따라  offset이 달라지는 ZoneRule 객체를 갖고 있다.&lt;/p&gt;
+&lt;p&gt;예를 들어&lt;/p&gt;
+&lt;p&gt;대한민국의 표준시는 현재는 UTC +9다. 1954~1961년까지는 UTC+8:30이었다. 출생년도가 58년 개띠인 사람의 데이터를 넣을 때는 offSet을 +8:30으로 넣어야 된다는 의미&lt;/p&gt;
+&lt;h3&gt;좀더 자세히 알아보자&lt;/h3&gt;
+&lt;p&gt;JRE는 Time Zone Database (TZDB)를 갖고 있다. 여기에는 각 지역마다  오프셋,  Daylight Saving Time(이하 DST) 를 어떻게 처리할지에 대한 기준 정보가 들어있다. 그 지역정보가 Asia/Seoul 등의 ZoneId 다&lt;/p&gt;
+&lt;h3&gt;ZoneId&lt;/h3&gt;
+&lt;p&gt;지역정보를 갖는 abstract 객체로 &lt;/p&gt;
+&lt;h3&gt;ZoneOffset&lt;/h3&gt;
+&lt;p&gt;ZoneId를 통해 구현하지만 UTC+09:00 등의 OFFSET정보만 가지고 있다. &lt;/p&gt;
+&lt;h3&gt;ZoneRegion&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/32437550/whats-the-difference-between-instant-and-localdatetime&quot;&gt;https://stackoverflow.com/questions/32437550/whats-the-difference-between-instant-and-localdatetime&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[New Beginnings]]></title><description><![CDATA[Far far away, behind the word mountains, far from the countries Vokalia and
+Consonantia, there live the blind texts. Separated they live in…]]></description><link>https://okshok.github.io/new-beginnings/</link><guid isPermaLink="false">https://okshok.github.io/new-beginnings/</guid><pubDate>Thu, 28 May 2015 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and
+Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
+right at the coast of the Semantics, a large language ocean. A small river named
+Duden flows by their place and supplies it with the necessary regelialia.&lt;/p&gt;
+&lt;h2&gt;On deer horse aboard tritely yikes and much&lt;/h2&gt;
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad
+Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
+didn’t listen. She packed her seven versalia, put her initial into the belt and
+made herself on the way.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This however showed weasel&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Well uncritical so misled&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;this is very interesting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Goodness much until that fluid owl&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When she reached the first hills of the &lt;strong&gt;Italic Mountains&lt;/strong&gt;, she had a last
+view back on the skyline of her hometown &lt;em&gt;Bookmarksgrove&lt;/em&gt;, the headline of
+&lt;a href=&quot;http://google.com&quot;&gt;Alphabet Village&lt;/a&gt; and the subline of her own road, the Line
+Lane. Pityful a rhetoric question ran over her cheek, then she continued her
+way. On her way she met a copy.&lt;/p&gt;
+&lt;h3&gt;Overlaid the jeepers uselessly much excluding&lt;/h3&gt;
+&lt;p&gt;But nothing the copy said could convince her and so it didn’t take long until a
+few insidious Copy Writers ambushed her, made her drunk with
+&lt;a href=&quot;http://google.com&quot;&gt;Longe and Parole&lt;/a&gt; and dragged her into their agency, where
+they abused her for their projects again and again. And if she hasn’t been
+rewritten, then they are still using her.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and
+Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
+right at the coast of the Semantics, a large language ocean.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It is a paradisematic country, in which roasted parts of sentences fly into your
+mouth. Even the all-powerful Pointing has no control about the blind texts it is
+an almost unorthographic life One day however a small line of blind text by the
+name of Lorem Ipsum decided to leave for the far World of Grammar.&lt;/p&gt;
+&lt;h3&gt;According a funnily until pre-set or arrogant well cheerful&lt;/h3&gt;
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad
+Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
+didn’t listen. She packed her seven versalia, put her initial into the belt and
+made herself on the way.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;So baboon this&lt;/li&gt;
+&lt;li&gt;Mounted militant weasel gregariously admonishingly straightly hey&lt;/li&gt;
+&lt;li&gt;Dear foresaw hungry and much some overhung&lt;/li&gt;
+&lt;li&gt;Rash opossum less because less some amid besides yikes jeepers frenetic
+impassive fruitlessly shut&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view
+back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet
+Village and the subline of her own road, the Line Lane. Pityful a rhetoric
+question ran over her cheek, then she continued her way. On her way she met a
+copy.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The copy warned the Little Blind Text, that where it came from it would have
+been rewritten a thousand times and everything that was left from its origin
+would be the word “and” and the Little Blind Text should turn around and
+return to its own, safe country.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;But nothing the copy said could convince her and so it didn’t take long until a
+few insidious Copy Writers ambushed her, made her drunk with Longe and Parole
+and dragged her into their agency, where they abused her for their projects
+again and again. And if she hasn’t been rewritten, then they are still using
+her. Far far away, behind the word mountains, far from the countries Vokalia and
+Consonantia, there live the blind texts.&lt;/p&gt;
+&lt;h4&gt;Silent delightfully including because before one up barring chameleon&lt;/h4&gt;
+&lt;p&gt;Separated they live in Bookmarksgrove right at the coast of the Semantics, a
+large language ocean. A small river named Duden flows by their place and
+supplies it with the necessary regelialia. It is a paradisematic country, in
+which roasted parts of sentences fly into your mouth.&lt;/p&gt;
+&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an
+almost unorthographic life One day however a small line of blind text by the
+name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox
+advised her not to do so, because there were thousands of bad Commas, wild
+Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.&lt;/p&gt;
+&lt;h5&gt;Wherever far wow thus a squirrel raccoon jeez jaguar this from along&lt;/h5&gt;
+&lt;p&gt;She packed her seven versalia, put her initial into the belt and made herself on
+the way. When she reached the first hills of the Italic Mountains, she had a
+last view back on the skyline of her hometown Bookmarksgrove, the headline of
+Alphabet Village and the subline of her own road, the Line Lane. Pityful a
+rhetoric question ran over her cheek, then she continued her way. On her way she
+met a copy.&lt;/p&gt;
+&lt;h6&gt;Slapped cozy a that lightheartedly and far&lt;/h6&gt;
+&lt;p&gt;The copy warned the Little Blind Text, that where it came from it would have
+been rewritten a thousand times and everything that was left from its origin
+would be the word “and” and the Little Blind Text should turn around and return
+to its own, safe country. But nothing the copy said could convince her and so it
+didn’t take long until a few insidious Copy Writers ambushed her, made her drunk
+with Longe and Parole and dragged her into their agency, where they abused her
+for their projects again and again.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Second Post!]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
+chicken eggs, though the…]]></description><link>https://okshok.github.io/my-second-post/</link><guid isPermaLink="false">https://okshok.github.io/my-second-post/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
+&lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
+chicken eggs, though the taste and texture will be somewhat different, and the
+egg yolk will be less rich.”?
+(&lt;a href=&quot;https://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hello World]]></title><description><![CDATA[This is my first post on my new fake blog! How exciting! I’m sure I’ll write a lot more interesting things in the future. Oh, and here’s a…]]></description><link>https://okshok.github.io/hello-world/</link><guid isPermaLink="false">https://okshok.github.io/hello-world/</guid><pubDate>Fri, 01 May 2015 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;This is my first post on my new fake blog! How exciting!&lt;/p&gt;
+&lt;p&gt;I’m sure I’ll write a lot more interesting things in the future.&lt;/p&gt;
+&lt;p&gt;Oh, and here’s a great quote from this Wikipedia on
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;salted duck eggs&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A salted duck egg is a Chinese preserved food product made by soaking duck
+eggs in brine, or packing each egg in damp, salted charcoal. In Asian
+supermarkets, these eggs are sometimes sold covered in a thick layer of salted
+charcoal paste. The eggs may also be sold with the salted paste removed,
+wrapped in plastic, and vacuum packed. From the salt curing process, the
+salted duck eggs have a briny aroma, a gelatin-like egg white and a
+firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/e1596/salty_egg.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMB/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAEEBf/aAAwDAQACEAMQAAABgik0dXC//8QAGRABAAMBAQAAAAAAAAAAAAAAAQACEhEy/9oACAEBAAEFAkqW2DlnRj73yf/EABcRAQADAAAAAAAAAAAAAAAAAAAREkH/2gAIAQMBAT8B1WX/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQL/2gAIAQIBAT8Bi6f/xAAbEAABBAMAAAAAAAAAAAAAAAAAAQIRISIxMv/aAAgBAQAGPwK9GNocyS8hCj//xAAbEAADAQADAQAAAAAAAAAAAAABESEAMUGBof/aAAgBAQABPyGxNMfrLHmCDZmAzzvJJDjEQCHv/9oADAMBAAIAAwAAABDIL//EABYRAQEBAAAAAAAAAAAAAAAAAAERAP/aAAgBAwEBPxARhylZv//EABgRAAIDAAAAAAAAAAAAAAAAAAABESFR/9oACAECAQE/EFoktI//xAAdEAEBAAICAwEAAAAAAAAAAAABEQAxIWFBcYHh/9oACAEBAAE/EEbMLQ0fMHDVaPIXyI4pk4JUnWacNCtO8ojDE9TGIYES7/Jn/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Chinese Salty Egg&quot;
+        title=&quot;Chinese Salty Egg&quot;
+        src=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/1c72d/salty_egg.jpg&quot;
+        srcset=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/a80bd/salty_egg.jpg 148w,
+/static/8058f3f26913fea3b6a89a73344fe94a/1c91a/salty_egg.jpg 295w,
+/static/8058f3f26913fea3b6a89a73344fe94a/1c72d/salty_egg.jpg 590w,
+/static/8058f3f26913fea3b6a89a73344fe94a/a8a14/salty_egg.jpg 885w,
+/static/8058f3f26913fea3b6a89a73344fe94a/fbd2c/salty_egg.jpg 1180w,
+/static/8058f3f26913fea3b6a89a73344fe94a/e1596/salty_egg.jpg 2048w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
