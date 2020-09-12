@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `승한의 기술 블로그`,
     author: {
       name: `Ok seung han`,
       summary: `재미, 겸손, 끈기`,
